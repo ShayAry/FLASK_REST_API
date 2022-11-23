@@ -1,6 +1,6 @@
 # FLASK_REST_API
 
-A REST API to exposed to interactions with stores, items, tags, and users. 
+A REST API exposed to interactions with stores, items, tags, and users. 
 
 The API will allow clients to:
   - Create and retrieve information about stores.
