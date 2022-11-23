@@ -49,3 +49,8 @@ The API have the endpoints shown below:
 | DELETE | /item/{id}/tag/{id} | Unlink a tag from an item.                              |
 | GET    | /tag/{id}           | Get information about a tag given its unique id.        |
 | DELETE | /tag/{id}           | Delete a tag, which must have no associated items.      |
+
+
+- One 🔒 means the user will need to have authenticated within the last few days to make a request.
+- Two 🔒🔒 means the user will need to have authenticated within the last few minutes to make a request.
+- No locks means anybody can make a request.
