@@ -2,7 +2,7 @@
 
 A REST API exposed to interactions with stores, items, tags, and users. 
 
-The API will allow clients to:
+This API allows clients to:
   - Create and retrieve information about stores.
   - Create, retrieve, search for, update, and delete items in those stores.
   - Create tags and link them to items, and search for items with specific tags.
