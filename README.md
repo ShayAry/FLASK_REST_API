@@ -10,7 +10,7 @@ The API will allow clients to:
   - Handle secure login, logout, authorization and authentication.
 
 
-The API will have the endpoints shown below:
+The API have the endpoints shown below:
 
 #Users
 | Method | Endpoint        | description |
