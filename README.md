@@ -13,14 +13,14 @@ This API allows clients to:
 The API have the endpoints shown below:
 
 #Users
-| Method | Endpoint        | description |
-|--------|-----------------|-------------|
-| POST   | /register       |             |
-| POST   | /login          |             |
-| 🔒POST  | /logout         |             |
-| 🔒POST  | /refresh        |             |
-| GET    | /user/{user_id} |             |
-| DELETE | /user/{user_id} |             |
+| Method | Endpoint        | description                                       |
+|--------|-----------------|---------------------------------------------------|
+| POST   | /register       | Create user accounts given an email and password. |
+| POST   | /login          | Get a JWT given an email and password.            |
+| 🔒POST  | /logout         | Revoke a JWT.                                     |
+| 🔒POST  | /refresh        | Get a fresh JWT given a refresh JWT.              |
+| GET    | /user/{user_id} | (dev-only) Get info about a user given their ID.  |
+| DELETE | /user/{user_id} | (dev-only) Delete a user given their ID.          |
 
 #Stores
 | Method | Endpoint    | Description                              |
