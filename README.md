@@ -12,7 +12,7 @@ This API allows clients to:
 
 The API have the endpoints shown below:
 
-#Users
+-Users
 | Method | Endpoint        | description                                       |
 |--------|-----------------|---------------------------------------------------|
 | POST   | /register       | Create user accounts given an email and password. |
@@ -22,7 +22,7 @@ The API have the endpoints shown below:
 | GET    | /user/{user_id} | (dev-only) Get info about a user given their ID.  |
 | DELETE | /user/{user_id} | (dev-only) Delete a user given their ID.          |
 
-#Stores
+-Stores
 | Method | Endpoint    | Description                              |
 |--------|-------------|------------------------------------------|
 | GET    | /store      | Get a list of all stores.                |
@@ -31,7 +31,7 @@ The API have the endpoints shown below:
 | POST   | /store/{id} | Delete a store, given its unique id.     |
 
 
-#Items
+-Items
 | Method  | Endpoint   | Description                                                                                         |
 |---------|------------|-----------------------------------------------------------------------------------------------------|
 | 🔒GET    | /item      | Get a list of all items in all stores.                                                              |
