@@ -1,0 +1,10 @@
+Flask-JWT-Extended
+Flask-Smorest
+Flask-SQLAlchemy
+passlib~=1.7.4
+marshmallow~=3.19.0
+python-dotenv
+gunicorn
+Flask~=2.2.2
+SQLAlchemy~=1.4.44
+pytest~=7.2.0
